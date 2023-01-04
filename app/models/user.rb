@@ -11,4 +11,4 @@ has_many :products
     user&.valid_password?(password) ? user : nil 
   end 
 end
- 
+  
