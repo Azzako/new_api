@@ -5,7 +5,7 @@ class Api::V1::Android::BooksController < ApiController
     before_action :is_admin?
     # GET /books or /books.json
     def index
-      @books = Book.all
+      @books = Book.all 
       render json: @books
     end
   
