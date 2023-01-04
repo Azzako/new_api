@@ -16,7 +16,7 @@ class Api::V1::ProductsController < ApiController
   def new
     @product = Product.new
   end
-
+ 
   # GET /products/1/edit
   def edit
   end
