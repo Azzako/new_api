@@ -3,7 +3,7 @@ en:
     attributes:
       doorkeeper/application:
         name: 'Name'
-        redirect_uri: 'Redirect URI'
+        redirect_uri: 'Redirect URI' 
     errors:
       models:
         doorkeeper/application:
