@@ -15,7 +15,7 @@ class Api::V1::BooksController < ApiController
     def new
       @book = Book.new
     end
-  
+   
     # GET /books/1/edit
     def edit
     end
