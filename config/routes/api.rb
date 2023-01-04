@@ -7,7 +7,7 @@ namespace :api do
       end
       resources :products
     end
-  end
+  end 
   
   scope :api do
     scope :v1 do
