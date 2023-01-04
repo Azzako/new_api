@@ -8,4 +8,4 @@ class PagesController < ApplicationController
       client_secret: @application.secret
     }
   end
-end
+end 
