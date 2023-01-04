@@ -11,7 +11,7 @@ class BooksTest < ApplicationSystemTestCase
   end
 
   test "should create book" do
-    visit books_url
+    visit books_url 
     click_on "New book"
 
     fill_in "Body", with: @book.body
