@@ -25,4 +25,4 @@ module DoorkeeperRegisterable
         created_at: access_token.created_at.to_time.to_i
     }
     end
-end
+end 
