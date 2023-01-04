@@ -15,7 +15,7 @@ Doorkeeper.configure do
     resource_owner_from_credentials do 
         User.authenticate(params[:email], params[:password])
     end
-
+ 
     grant_flows %w[password]
 
   # If you didn't skip applications controller from Doorkeeper routes in your application routes.rb
